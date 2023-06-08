@@ -128,7 +128,7 @@ perch_data %>%
 
 
 
-perch_data %>%
+##perch_data %>%
   group_by(exercise) %>%
   mutate(sd_pp = sd(peak_power_w),
          x2_sd_pp = 2*sd_pp) %>%
